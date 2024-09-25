@@ -1,7 +1,6 @@
-//your JS code here. If required.
 // Function to implement lazy loading using IntersectionObserver
 document.addEventListener("DOMContentLoaded", () => {
-    const lazyImages = document.querySelectorAll('.lazy-image');
+    const lazyImages = document.querySelectorAll('img.lazy'); // Change selector to 'img.lazy'
 
     const imageObserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
