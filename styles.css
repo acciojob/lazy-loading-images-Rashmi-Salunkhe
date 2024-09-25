@@ -1,1 +1,8 @@
 /*  your css code here. If applicable */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
